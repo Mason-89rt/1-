@@ -1,7 +1,6 @@
 import string
-def klopp(s):
-    return s
-s = "./,.,.,In., a "
-s = s.translate(str.maketrans('', '', string.punctuation))
-print(s.split()[0])
+def klopp(stroka):
+    stroka=stroka.translate(str.maketrans('', '', string.punctuation))
+    stroka=stroka.split()[0]
+    return stroka
 
